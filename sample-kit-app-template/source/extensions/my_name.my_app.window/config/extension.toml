@@ -3,8 +3,8 @@
 version = "1.0.0"
 
 # The title and description fields are primarily for displaying extension info in UI
-title = "Setup Extension for My App"
-description = "an extensions that Setup my App"
+title = "My Application Main Window"
+description = "A Window for my Application"
 
 # Path (relative to the root) or content of readme markdown file for UI.
 readme  = "docs/README.md"
@@ -13,10 +13,10 @@ readme  = "docs/README.md"
 repository = "https://github.com/NVIDIA-Omniverse/kit-app-template"
 
 # One of categories for UI.
-category = "setup"
+category = "window"
 
 # Keywords for the extension
-keywords = ["kit", "app", "setup"]
+keywords = ["kit", "window"]
 
 # Icon to show in the extension manager
 icon = "data/icon.png"
@@ -26,9 +26,8 @@ preview_image = "data/preview.png"
 
 # Use omni.ui to build simple UI
 [dependencies]
-"omni.kit.quicklayout" = {}
-"omni.kit.window.title" = {}
+"omni.ui" = {}
 
 # Main python module this extension provides, it will be publicly available as "import omni.hello.world".
 [[python.module]]
-name = "deloitte.sample_app.setup"
+name = "my_name.my_app.window"

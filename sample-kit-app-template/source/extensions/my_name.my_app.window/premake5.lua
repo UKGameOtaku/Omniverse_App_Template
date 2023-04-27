@@ -6,4 +6,4 @@ project_ext (ext)
 -- Link only those files and folders into the extension target directory
 repo_build.prebuild_link { "docs", ext.target_dir.."/docs" }
 repo_build.prebuild_link { "data", ext.target_dir.."/data" }
-repo_build.prebuild_link { "deloitte", ext.target_dir.."/deloitte" }
+repo_build.prebuild_link { "my_name", ext.target_dir.."/my_name" }

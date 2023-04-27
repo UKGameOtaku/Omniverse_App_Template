@@ -12,7 +12,7 @@ MSBUILD_VERSION = "Current"
 -- Execute the kit template premake configuration, which creates the solution, finds extensions, etc.
 dofile("_repo/deps/repo_kit_tools/kit-template/premake5.lua")
 
--- Apps: for each app generate batch files and a project based on kit files (e.g. company_name.app_name.kit)
-define_app("deloitte.sample_app")
-define_app("deloitte.sample_app.viewport")
-define_app("deloitte.sample_app.editor")
+-- Apps: for each app generate batch files and a project based on kit files (e.g. my_name.my_app.kit)
+define_app("my_name.my_app")
+define_app("my_name.my_app.viewport")
+define_app("my_name.my_app.editor")

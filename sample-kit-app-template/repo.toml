@@ -14,7 +14,7 @@ import_configs = [
 name = "kit-app-template"
 
 [repo_kit_link_app]
-app_name = "create"   # App name. It can be "isaac_sim" if you are creating an IsaacSim based app.
+app_name = "create"   # App name.
 app_version = ""    # App version. Empty means latest. Specify to lock version, e.g. "2022.2.0-rc.3"
 
 
@@ -35,3 +35,4 @@ config_path = "${root}/docs/docs.toml"
 [repo_docs.kit]
 extensions = [
 ]
+

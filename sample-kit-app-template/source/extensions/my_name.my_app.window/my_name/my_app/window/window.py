@@ -18,9 +18,10 @@ class MyWindow(ui.Window):
                 ui.Spacer()
 
                 ui.Label(
-                    """You are all awesome!""",
+                    """Today I will build something special with
+                        #Omniverse Kit""",
                     height=0,
-                    style={"font_size": 30, "alignment": ui.Alignment.CENTER},
+                    style={"font_size": 32, "alignment": ui.Alignment.CENTER},
                 )
 
                 ui.Spacer()
