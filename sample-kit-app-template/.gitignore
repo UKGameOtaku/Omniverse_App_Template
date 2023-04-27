@@ -2,7 +2,7 @@
 _*/
 
 # Compiled python files.
-*.py[cod]
+#*.py[cod]
 
 # Visual Studio files.
 /.vs
